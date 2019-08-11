@@ -1,0 +1,7 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Endpoint get detailed profile information about the current user
+GET     /users/me                   controllers.UserController.me
